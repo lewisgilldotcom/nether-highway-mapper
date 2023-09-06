@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from matplotlib.widgets import CheckButtons
 
 # Read the CSV file
-csv_file = "/home/lewis/Documents/Nether_Highway_Stops.csv"
+csv_file = "Nether_Highway_Stops.csv"
 df = pd.read_csv(csv_file)
 
 # Extract data
